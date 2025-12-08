@@ -1,8 +1,3 @@
-Below is a **professional pentester-style lab report** written exactly the way real penetration testers document engagements.
-
-You can copy & paste this **entire report** into your `Lab-Report.md` file in your GitHub repository.
-
----
 
 # **Penetration Testing Lab Report – IVR / Webhook Security Simulation**
 
