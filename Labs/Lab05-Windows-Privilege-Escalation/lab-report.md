@@ -117,14 +117,16 @@ The enumeration process successfully identified the key components required for 
 ---
 
 ## 5. Appendix – Commands Used
-01-system-info.png
-02-whoami-privileges.png
-03-user-and-group-enumeration.png
-04-service-enumeration.png
-04-service-enumeration2.png
-05-scheduled-tasks.png
-06-acls.png
-07-path-enumeration.png
-.keep
+systeminfo
+whoami /all
+net users
+net localgroup
+sc queryex type= service state= all
+wmic service get name,startmode,pathname
+schtasks /query /fo list /v
+icacls "C:\Program Files"
+icacls "C:\Program Files (x86)"
+icacls "C:\ProgramData"
+set
 
 
