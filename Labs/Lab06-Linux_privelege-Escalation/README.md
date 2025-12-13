@@ -67,4 +67,4 @@ Establishing a structured methodology for real-world pentesting
 Status
 
 ✔ Completed
-➡ Next Step: HackTheBox Linux machines + privilege escalation practice
+
